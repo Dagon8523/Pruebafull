@@ -1,0 +1,27 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-image: url("../img/fondo.jpg");
+    background-size: 100%;
+    opacity: 0.8;
+}
+ h1{
+     text-align: center;
+     color: white;
+     font-size: 260%;
+ }
+ .equipos{
+     border: white solid 5px;   
+ }
+ .equipos .imagen{
+     display: flex;
+     flex-direction: column;
+
+ }
+
+ .equipos .imagen img{
+     width: 10%;
+     
+ }
