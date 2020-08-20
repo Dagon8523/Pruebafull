@@ -13,15 +13,125 @@ body{
      font-size: 260%;
  }
  .equipos{
-     border: white solid 5px;   
+     border: white solid 5px;
+     position: relative;
+     top: 500%;
+     text-align: center;  
  }
  .equipos .imagen{
-     display: flex;
-     flex-direction: column;
-
+    display: inline-block;
  }
-
+ .equipos .versus p{
+     font-size: 200%;
+     color: white;
+     font-style: bold;
+     position: relative;
+    
+     font-size: 300%;
+ }
  .equipos .imagen img{
-     width: 10%;
+     margin: 2%;
      
+     width: 90%;
  }
+
+ .equipos .apuesta{
+     display: grid;
+     margin: 1%;
+     padding:2%; 
+     grid-template-rows: 1fr 1fr 1fr;
+     grid-template-columns: 1fr;
+     width:30%;
+     position: relative;
+     left: 30%;
+     
+
+ }
+ .equipos .apuesta label{
+     grid-row-start: 1;
+     grid-row-end: 2;
+     color: white;
+     font-style: italic;
+     font-style: bold;
+     font-size: 150%;
+     padding:1%;
+ }
+ .equipos .apuesta .valor{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    color: red;
+    padding:1%;
+    font-style: italic;
+    border-radius: 8px;
+ }
+ .equipos .apuesta .boton{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    border-radius: 5px;
+    background-color: mediumblue;
+    color: white;
+     padding:1%;
+ }
+ .equipos input{
+    border-radius: 5px;
+ }
+ .formulario{
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+    border: white solid 5px;
+    position: relative;
+    top: 20%;
+    text-align: center;  
+   
+ }
+.formulario label{
+    color: white;
+    font-size: 110%;
+    font-style: italic;
+   
+}
+.formulario .nombre{
+    border-radius: 5px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.formulario .apellidos{
+    border-radius: 5px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.formulario .email{
+    border-radius: 5px;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.formulario .password{
+    border-radius: 5px;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.formulario .boton{
+    border-radius: 5px;
+    background-color: mediumblue;
+    color: white;
+     padding:1%;
+}
+h4{
+    color: white;
+    font-size:120%;
+}
+
+
+
+
+ footer{
+     text-align: center;
+     color: white;
+     font-size:110%;
+     font-style: bold;
+     border: white solid 5px;
+
+ }
+ 
+
+
